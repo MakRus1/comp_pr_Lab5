@@ -7,7 +7,7 @@ int main()
 
 	while(b)
 	{
-		printf("Choose library:\n1 - array\n2 - matrix\n3 - quit\n");
+		printf("Choose library for Linux:\n1 - array\n2 - matrix\n3 - quit\n");
 		scanf("%d",&a);
 		if(a==1)
 			LoadRun("arrayfuncs.dll");
